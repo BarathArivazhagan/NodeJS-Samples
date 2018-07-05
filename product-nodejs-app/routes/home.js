@@ -6,7 +6,7 @@ var home = express.Router();
 home.get('/', function(req, res) {
 	console.log("home is called");
 	res.setHeader('Content-Type', 'application/json');
-  res.write("Welcome to APP PES Product API");
+  res.write("Welcome to  Product API");
 });
 
 module.exports = home;
