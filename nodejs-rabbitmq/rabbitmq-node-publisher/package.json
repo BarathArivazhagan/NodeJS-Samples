@@ -1,0 +1,22 @@
+{
+  "name": "rabbitmq-node-publisher",
+  "version": "1.0.0",
+  "description": "node express js application with rabbitmq messaging",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "amqp",
+    "rabbbitmq"
+  ],
+  "author": "barath",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4"
+  }
+}
